@@ -22,6 +22,26 @@ body {
     background-color: var(--texte);
 }
 
+/*footer*/
+
+footer {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--textc);
+}
+
+.footer-info {
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*end footer*/
+
 .container {
     max-width: 1050px;
     margin: 0 auto;
@@ -50,6 +70,16 @@ body {
 .headertextalert {
     max-width: 200px;
 }
+
+#headertextalert {
+    cursor: pointer;
+    transition: 0.1s linear;
+}
+
+#headertextalert:hover {
+    text-decoration: underline;
+}
+
 
 #logocont {
     width: 100%;
@@ -136,7 +166,7 @@ body {
     color: var(--textb);
     text-decoration: none;
     padding: 4px 6px 4px 6px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 18px;
     cursor: pointer;
     background-color: #ffffff09;
