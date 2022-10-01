@@ -74,6 +74,9 @@ footer {
 #headertextalert {
     cursor: pointer;
     transition: 0.1s linear;
+    font-size: 16px;
+    color: var(--tetxa);
+    background-color: transparent;
 }
 
 #headertextalert:hover {
