@@ -253,4 +253,8 @@ footer {
         margin-bottom: 20px;
     }
 
+    .footer-info {
+        width: 97%;
+    }
+
 }
