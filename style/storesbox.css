@@ -2,25 +2,68 @@
     margin-top: 30px;
 }
 
-.h-box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /*colocar grid aqui*/
-}
-
 .storelink {
     width: 340px;
-    height: 200px;
+    height: 340px;
     display: flex;
+    flex-direction: column;
     border: 1px solid var(--textc);
     border-radius: 10px;
+    margin: 10px;
 }
 
-.storelink-null {
-    width: 340px;
-    height: 200px;
+.storelink-logo {
+    margin: 0 auto;
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+#storelink-logo {
+    width: 100%;
+    padding: 20px;
+}
+
+.storelink-text > .magal8{
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: left;
+    width: 90%;
+}
+
+.storelink-text > .off {
+    font-size: 28px;
+
+}
+
+.off > b {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.storelink-text  {
     display: flex;
-    background-color:  var(--textc);
-    border-radius: 10px;
+    flex-direction: column;
+}
+
+.store-link-buttons {
+    margin: 30px;
+}
+
+@media(max-width: 991px) {
+    .storelink {
+        height: fit-content;
+    }
+}
+
+@media(max-width: 800px) {
+    .row,.align-items-start {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .storelink {
+        width: fit-content;
+    }
+
 }
