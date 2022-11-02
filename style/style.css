@@ -199,7 +199,10 @@ footer {
     border-radius: 5px;
     font-size: 18px;
     cursor: pointer;
-    background-color: #ffffff09;
+}
+
+#directlink:hover {
+    text-decoration: underline;
 }
 
 .pricebox{
