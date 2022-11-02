@@ -1,39 +1,46 @@
+.stores-title > h3 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--textc)
+}
+
+.stores-title {
+    margin-bottom: 30px;
+}
+
 .container {
     margin-top: 30px;
 }
 
 .storelink, .col {
     margin: 10px;
-    max-width: 340px;
-    height: 340px;
+    max-width: 240px;
     display: flex;
     flex-direction: column;
     border: 1px solid var(--textc);
     border-radius: 10px;
 }
 
-.storelink-logo {
-    margin: 0 auto;
-    max-width: 200px;
-    margin-top: 20px;
-}
 
 #storelink-logo {
     width: 100%;
-    padding: 20px;
+    border-radius: 10px;
 }
 
-.storelink-text > .magal8{
-    font-size: 18px;
-    margin: 0 auto;
-    margin-top: 20px;
-    text-align:center;
-    width: 90%;
+.storelink-text > .storelink-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
 }
 
-.storelink-text > .off {
-    font-size: 28px;
+.storelink-text > .storelinktext {
+    font-size: 16px;
+    font-weight: 300;
+}
 
+.storelink-text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
 }
 
 .off > b {
@@ -41,18 +48,19 @@
     font-weight: normal;
 }
 
-.storelink-text  {
-    display: flex;
-    flex-direction: column;
-}
-
 .store-link-buttons {
-    margin-top: 50px;
-    padding-top: 5px;
-    border-top: 1px solid var(--textc);
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: var( --textc);
+    width: fit-content;
+    border-radius: 10px;
 }
 
-.row {
+.the-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -67,27 +75,4 @@
     }
 }
 
-@media(max-width: 575.98px) {
-    .row {
-        align-items: center;
-        justify-content: center;
-    }
 
-    .storelink {
-        width: 90%;
-    }
-
-    .store-link-buttons {
-        margin-top: 50px;
-        padding-top: 5px;
-        border-top: 1px solid var(--textc);
-    }
-
-}
-@media(max-width: 329px) {
-    .store-link-buttons {
-        margin-top: 20px;
-        padding-top: 7px;
-        border-top: 1px solid var(--textc);
-    }
-}

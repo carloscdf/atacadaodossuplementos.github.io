@@ -14,6 +14,7 @@
     border: 0;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
+    font-family: 'Inter';
 }
 
 a {
@@ -21,7 +22,7 @@ a {
 }
 
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+
     color: var(--texta);
     background-color: var(--texte);
 }
@@ -44,11 +45,31 @@ footer {
     margin: 0 auto;
 }
 
+.footerinfo {
+    margin-bottom: 0px;
+}
+
 /*end footer*/
 
 .container {
     max-width: 1050px;
     margin: 0 auto;
+}
+
+.alert-header {
+    text-align: center;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--textb);
+}
+
+.alert-header > span > a {
+    color: var(--texta);
+    text-decoration: underline;
 }
 
 .mainheader {
@@ -94,9 +115,7 @@ footer {
 
 /*banner*/
 .bannercont {
-    max-width: 1200px;
     margin: 0 auto;
-    padding-top: 30px;
 }
 
 #bannerimg {
@@ -108,6 +127,11 @@ footer {
 }
 
 /*pin*/
+
+.pin-title > h3 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--textc)
+}
 
 .emphacont {
     margin-top: 30px;
@@ -125,8 +149,8 @@ footer {
     background-color: #ffffff09;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .emphatext {
@@ -215,6 +239,15 @@ footer {
     background-color: #00c79c17;
 }
 
+/*Carroussel*/
+
+.carousel-control-next-icon {
+    background-image: url(/assets/carousel/arrow-icon.svg) !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(/assets/carousel/arrow-icon-prev.svg) !important;
+}
 
 /*responsive*/
 
@@ -249,9 +282,9 @@ footer {
         object-fit: cover;
         object-position: center;
         background-color: #ffffff09;
-        border-top-right-radius: 10px;
+        border-top-right-radius: 15px;
         border-bottom-right-radius: 0;
-        border-top-left-radius: 10px;
+        border-top-left-radius: 15px;
         border-bottom-left-radius: 0px;
     }
 
