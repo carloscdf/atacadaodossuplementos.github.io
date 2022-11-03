@@ -72,9 +72,16 @@ footer {
     text-decoration: underline;
 }
 
+/*MUDAR DEPOIS*/
+
 .mainheader {
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    left: 0;
+    position: fixed;
     border-bottom: 1px solid var(--textc);
-    background-color: #33333309;
+    background-color: var(--texte);
 }
 
 .headercont {
@@ -245,11 +252,11 @@ footer {
 /*Carroussel*/
 
 .carousel-control-next-icon {
-    background-image: url(/assets/carousel/arrow-icon.svg) !important;
+    background-image: url(https://raw.githubusercontent.com/carloscdf/atacadaodossuplementos/c3822d4db8a90b01bd342c81200cbdbd19f35393/assets/carousel/arrow-icon.svg) !important;
 }
 
 .carousel-control-prev-icon {
-    background-image: url(/assets/carousel/arrow-icon-prev.svg) !important;
+    background-image: url(https://raw.githubusercontent.com/carloscdf/atacadaodossuplementos/c3822d4db8a90b01bd342c81200cbdbd19f35393/assets/carousel/arrow-icon-prev.svg) !important;
 }
 
 .carousel  {
