@@ -22,7 +22,6 @@ a {
 }
 
 body {
-
     color: var(--texta);
     background-color: var(--texte);
 }
@@ -75,11 +74,7 @@ footer {
 /*MUDAR DEPOIS*/
 
 .mainheader {
-    z-index: 10;
-    top: 0;
     width: 100%;
-    left: 0;
-    position: fixed;
     border-bottom: 1px solid var(--textc);
     background-color: var(--texte);
 }
