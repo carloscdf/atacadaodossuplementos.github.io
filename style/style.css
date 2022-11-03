@@ -252,6 +252,10 @@ footer {
     background-image: url(/assets/carousel/arrow-icon-prev.svg) !important;
 }
 
+.carousel  {
+    border-bottom: 1px solid var(--textc);
+}
+
 /*responsive*/
 
 @media(max-width: 1300px) {
