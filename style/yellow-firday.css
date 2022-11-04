@@ -24,6 +24,7 @@
 
 .see-more > a:hover {
     color: var(--textb);
+    border-radius: 10px;
     background-color: transparent;
     outline: 1px solid var(--textc);
 }
