@@ -1,0 +1,70 @@
+.yellow-firday-banner > img{
+    width: 500px;
+    padding: 0px 30px 30px 30px;
+}
+
+.yellow-firday-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td, th {
+    color: var(--texta);
+}
+
+td {
+    overflow-x: auto;
+}
+
+thead, tr {
+    border-bottom: 1px solid var(--textc);
+}
+
+td > a {
+    text-decoration: underline;
+}
+.page2 {
+    margin-bottom: 30px;
+}
+th > img{
+    border-radius: 10px;
+    border: 1px solid var(--textc);
+    width: 150px;
+}
+
+.price-box {
+    font-size: 18px;
+}
+
+.image-td {
+    width: 0%;
+}
+
+.txt-table {
+    text-transform: uppercase;
+}
+
+@media(max-width: 575.98px) {
+
+    .yellow-firday-banner > img {
+        width: 70%;
+    }
+
+
+    th > img{
+        width: 70px;
+    }
+
+    th {
+        font-size: 14px;
+    }
+
+    .price-box {
+        font-size: 16px;
+    }
+
+    td {
+        font-size: 12.5px;
+    }
+}

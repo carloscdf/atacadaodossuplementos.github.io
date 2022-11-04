@@ -2,7 +2,10 @@
 
 :root {
     --texta: #ffffff;
-    --textb:#0D80F5;
+    --textb:#ffbd00ff;
+    /*
+    --textb:#ffbd00ff;
+    */
     --textc: #ffffff1a;
     --textd: #0B31E1;
     --texte: #000000;
