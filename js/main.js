@@ -1,3 +1,4 @@
+/*Data footer*/
 const ano = document.getElementById("ano");
 const anoAtual = new Date();
 
