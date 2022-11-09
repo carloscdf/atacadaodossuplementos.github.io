@@ -257,6 +257,7 @@ footer {
     border-radius: var(--radius);
     color: var(--textb);
     font-size: 14px;
+    font-weight: 600;
     text-transform: uppercase;
     margin-left: 10px;
 }
@@ -279,15 +280,19 @@ footer {
 
 
 #directlink {
-    color: var(--textb);
+    color: var(--texte);
+    background-color: var(--textb);
     text-decoration: none;
     padding: 4px 6px 4px 6px;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 19px;
     cursor: pointer;
+    transition: 0.1s linear;
 }
 
 #directlink:hover {
+    background-color: transparent;
+    color: var(--textb);
     outline: 2px solid var(--textb);
 }
 
