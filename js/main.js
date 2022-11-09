@@ -1,6 +1,4 @@
-var result, precototal = document.getElementById(pricewas), precocalc = document.getElementById(pricenow);
+const ano = document.getElementById("ano");
+const anoAtual = new Date();
 
-
-result = (precocalc*100)/precototal;
-
-console.log(result);
+ano.innerHTML = anoAtual.getFullYear();
