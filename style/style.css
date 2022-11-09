@@ -67,6 +67,10 @@ body {
 
 }
 
+.mapa > iframe:hover {
+    outline: 2px solid var(--textb);
+}
+
 .mapa {
     color: var(--textc);
     display: flex;
