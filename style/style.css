@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --texta: #ffffff;
-    --textb:#ffbd00ff;
+    --texta: #1D1D1F;
+    --textb:#0d80f5ff;
     /*
-    --textb:#ffbd00ff;
+    --textb: #1D1D1F;
     */
-    --textc: #ffffff1a;
+    --textc: #0000001a;
     --textd: #0B31E1;
-    --texte: #000000;
+    --alert-header: #e0e0e0;
+    --alert-header-text: #050505;
+    --texte: #f8f8f8;
+
+    --radius: 15px;
 }
 
 * {
@@ -66,11 +70,11 @@ footer {
     justify-content: center;
     width: 100%;
     padding: 10px;
-    background-color: var(--textb);
+    background-color: var(--alert-header);
 }
 
 .alert-header > span > a {
-    color: var(--texta);
+    color: var(--alert-header-text);
     text-decoration: underline;
 }
 
@@ -97,20 +101,18 @@ footer {
     max-height: 120px;
 }
 
-.headertextalert {
-    max-width: 200px;
-}
 
 #headertextalert {
     cursor: pointer;
-    transition: 0.1s linear;
     font-size: 16px;
-    color: var(--tetxa);
-    background-color: transparent;
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+    background-color: var(--alert-header-text);
+    color: var(--texte);
 }
 
 #headertextalert:hover {
-    text-decoration: underline;
+    outline: 2px solid var(--textb);
 }
 
 
@@ -126,7 +128,7 @@ footer {
 #bannerimg {
     width: 100%;
     height: 300px;
-    border-radius: 10px;
+    border-radius: var(--radius);
     object-fit: cover;
     object-position: center;
 }
@@ -139,10 +141,10 @@ footer {
 }
 
 .emphacont {
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     border: 1px solid var(--textc);
-    border-radius: 15px;
+    border-radius: var(--radius);
     align-items: center;
 }
 
@@ -154,8 +156,8 @@ footer {
     background-color: #ffffff09;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-top-left-radius: var(--radius);
+    border-bottom-left-radius: var(--radius);
 }
 
 .emphatext {
@@ -165,6 +167,7 @@ footer {
 
 .titlespantext{
     display: flex; align-items: center; flex-direction: row; justify-content: left;
+    flex-wrap: wrap-reverse;
 }
 
 #emphatitle {
@@ -174,9 +177,10 @@ footer {
 
 #emphatitlehub {
     padding: 2px 4px 2px 4px;
-    border-radius: 10px;
+    border-radius: var(--radius);
     color: var(--textb);
     font-size: 14px;
+    text-transform: uppercase;
     margin-left: 10px;
 }
 
@@ -184,7 +188,7 @@ footer {
     margin-bottom: 20px;
     max-width: 658;
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-overflow:clip;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -207,7 +211,7 @@ footer {
 }
 
 #directlink:hover {
-    text-decoration: underline;
+    outline: 2px solid var(--textb);
 }
 
 .pricebox{
@@ -257,8 +261,14 @@ footer {
     background-image: url(https://raw.githubusercontent.com/carloscdf/atacadaodossuplementos/c3822d4db8a90b01bd342c81200cbdbd19f35393/assets/carousel/arrow-icon-prev.svg) !important;
 }
 
-.carousel  {
-    border-bottom: 1px solid var(--textc);
+.carousel-item > a > img {
+    border-radius: var(--radius);
+    
+}
+
+.carousel-item > a > img:hover {
+
+ border: 2px solid var(--textb);
 }
 
 /*responsive*/
@@ -277,10 +287,6 @@ footer {
 }
 
 @media(max-width: 575.98px) {
-
-    #bannerimg {
-        height: 200px;
-    }
 
     .emphacont {
         display: flex;

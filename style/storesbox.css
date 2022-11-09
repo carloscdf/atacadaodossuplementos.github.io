@@ -4,7 +4,7 @@
 }
 
 .stores-title {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -17,13 +17,16 @@
     display: flex;
     flex-direction: column;
     border: 1px solid var(--textc);
-    border-radius: 10px;
+    border-radius: var(--radius);
 }
 
+.storelink {
+padding: 10px;
+}
 
 #storelink-logo {
-    width: 100%;
-    border-radius: 10px;
+    width: 100px;
+    margin-bottom: 10px;
 }
 
 .storelink-text > .storelink-title{
@@ -53,9 +56,18 @@
     margin-bottom: 10px;
     margin-top: 8px;
     padding: 10px;
-    background-color: var( --textc);
+    cursor: pointer;
+    background-color: var(--alert-header-text);
     width: fit-content;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+.store-link-buttons > a,.store-link-buttons > a:hover  {
+    color: var(--texte);
+}
+
+.store-link-buttons:hover {
+    outline: 2px solid var(--textb);
 }
 
 .the-flex {

@@ -1,12 +1,17 @@
 .yellow-firday-banner > img{
-    width: 500px;
-    padding: 0px 30px 30px 30px;
+    width: 400px;
+    background-color: var(--alert-header-text);
 }
 
 .yellow-firday-banner {
     display: flex;
+    max-width: 1200px;
+    padding: 50px 0px 50px 0px;
+    border-radius: var(--radius);
+    background-color: var(--alert-header-text);
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .see-more {
