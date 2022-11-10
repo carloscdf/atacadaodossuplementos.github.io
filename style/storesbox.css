@@ -12,12 +12,20 @@
 }
 
 .storelink {
+    -webkit-box-shadow: 0px 4px 24px -11px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px 4px 24px -11px rgba(0,0,0,0.36);
+    box-shadow: 0px 4px 24px -11px rgba(0,0,0,0.36);
     margin: 10px;
     max-width: 240px;
     display: flex;
+    cursor: pointer;
     flex-direction: column;
     border: 1px solid var(--textc);
     border-radius: var(--radius);
+}
+
+.storelink:hover {
+    outline: 2px solid var(--textb);
 }
 
 .storelink {
@@ -62,12 +70,12 @@ padding: 10px;
     border-radius: 5px;
 }
 
-.store-link-buttons > a,.store-link-buttons > a:hover  {
-    color: var(--texte);
+.soon {
+    background-color: var(--copyright-switzer);
 }
 
-.store-link-buttons:hover {
-    outline: 2px solid var(--textb);
+.store-link-buttons > a,.store-link-buttons > a:hover  {
+    color: var(--texte);
 }
 
 .the-flex {

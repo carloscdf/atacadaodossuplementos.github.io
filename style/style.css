@@ -217,16 +217,35 @@ footer {
 /*pin*/
 
 .pin-title > h3 {
-    padding-bottom: 5px;
-    border-bottom: 1px solid var(--textc)
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.pin-title > h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: var(--textb);
+    height: 3px;
+    border-radius: 10px;
+    width: 100px;
 }
 
 .emphacont {
+    -webkit-box-shadow: 0px 4px 24px -11px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px 4px 24px -11px rgba(0,0,0,0.36);
+    box-shadow: 0px 4px 24px -11px rgba(0,0,0,0.36);
     margin-top: 20px;
     display: flex;
+    cursor: pointer;
     border: 1px solid var(--textc);
     border-radius: var(--radius);
     align-items: center;
+}
+
+.emphacont:hover {
+    outline: 2px solid var(--textb);
 }
 
 #emphaimg, .emphaimg {
@@ -242,6 +261,7 @@ footer {
 }
 
 .emphatext {
+    color: var(--texta);
     margin-left: 30px;
     margin-right: 30px;
 }
@@ -287,17 +307,11 @@ footer {
     color: var(--texte);
     background-color: var(--textb);
     text-decoration: none;
-    padding: 4px 6px 4px 6px;
+    padding: 8px;
     border-radius: 5px;
     font-size: 19px;
     cursor: pointer;
     transition: 0.1s linear;
-}
-
-#directlink:hover {
-    background-color: transparent;
-    color: var(--textb);
-    outline: 2px solid var(--textb);
 }
 
 .pricebox{
@@ -345,16 +359,6 @@ footer {
 
 .carousel-control-prev-icon {
     background-image: url(https://raw.githubusercontent.com/carloscdf/atacadaodossuplementos/c3822d4db8a90b01bd342c81200cbdbd19f35393/assets/carousel/arrow-icon-prev.svg) !important;
-}
-
-.carousel-item > a > img {
-    border-radius: var(--radius);
-    
-}
-
-.carousel-item > a > img:hover {
-
- border: 2px solid var(--textb);
 }
 
 /*responsive*/
