@@ -2,11 +2,13 @@
 
 :root {
     --texta: #1D1D1F;
+    --button: #35353a;
     --textb:#0d80f5ff;
     --black: #050505;
     /*
     --textb: #1D1D1F;
     */
+    --outline: #e0e0e015;
     --textc: #e0e0e0;
     --textd: #0B31E1;
     --alert-header: #e0e0e0;
@@ -35,10 +37,60 @@ body {
     background-color: var(--texte);
 }
 
+/*Categoria*/
+.categories {
+    padding-top: 20px;
+    display: flex;
+    padding-left: 10px;
+    height: 100%;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.cat > img {
+    width: 120px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.cat > p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.cat {
+    margin-right: 10px;
+    color: var(--texta);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 120px;
+    width: 100%;
+}
+
+.cat > img:hover {
+    outline: 2px solid var(--textb);
+}
+
+
 /*footer above*/
 
+.accordion-button, .accordion-item {
+    background-color: var(--texta) !important;
+    color: var(--textc) !important;
+    fill: var(--textc) !important;
+    outline: 1px solid var(--outline) !important;
+    border-radius: var(--radius) !important;
+}
+
+.accordion-button:hover {
+    outline: 2px solid var(--textb) !important;
+}
+
 .footer-above {
-    background-color: var(--black);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: var(--texta);
 }
 
 .footer-above-info {
@@ -48,7 +100,7 @@ body {
     font-size: 14px;
     color: var(--textc);
     padding: 20px;
-    justify-content: center;
+    justify-content: left;
 }
 
 .footer-above-info > span {
@@ -84,6 +136,10 @@ body {
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+
+.logo-footer {
+    width: fit-content;
 }
 
 /*footer*/
@@ -139,6 +195,14 @@ footer {
     margin: 0 auto;
 }
 
+.copa {
+    background-image: url("/assets/line.png") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
 .alert-header {
     text-align: center;
     display: flex;
@@ -159,12 +223,12 @@ footer {
 
 .mainheader {
     width: 100%;
-    border-bottom: 1px solid var(--textc);
-    background-color: var(--texte);
+    border-bottom: 1px solid var(--outline);
+    background-color: var(--texta);
 }
 
 .headercont {
-    padding: 10px 0px 10px 0px;
+    padding: 15px 0px 15px 0px;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -188,8 +252,8 @@ footer {
     font-size: 16px;
     padding: 15px 20px 15px 20px;
     border-radius: 5px;
-    background-color: var(--alert-header-text);
-    color: var(--texte);
+    background-color: var(--button);
+    color: var(--textc);
 }
 
 #headertextalert:hover {
@@ -359,6 +423,10 @@ footer {
 
 .carousel-control-prev-icon {
     background-image: url(https://raw.githubusercontent.com/carloscdf/atacadaodossuplementos/c3822d4db8a90b01bd342c81200cbdbd19f35393/assets/carousel/arrow-icon-prev.svg) !important;
+}
+
+.carousel-item > a > img {
+    border-radius: var(--radius);
 }
 
 /*responsive*/
