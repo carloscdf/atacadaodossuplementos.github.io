@@ -441,9 +441,6 @@ footer {
     .row-cont {
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        background-color: #e0e0e0;
     }
 
     .m {
@@ -451,11 +448,9 @@ footer {
     }
 
     .emphacont {
-        background-color: var(--texte);
-        margin: 1px !important;
         border-radius: 0px !important;
-        width: 49.5%;
-        border: none;
+        width: 50%;
+        margin-top: 0px !important;
     }
 
     .emphacont:hover {
