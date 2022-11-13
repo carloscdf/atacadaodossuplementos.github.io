@@ -13,7 +13,8 @@
 
 .storelink {
     margin-right: 10px;
-    min-width: 240px;
+    min-width: 239px;
+    max-width: 240px;
     width: 100%;
     display: flex;
     cursor: pointer;
