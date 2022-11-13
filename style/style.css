@@ -196,7 +196,9 @@ footer {
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-bottom: 0px !important;
     padding: 10px;
+    border-radius: 0px !important;
     background-color: var(--alert-header);
 }
 
@@ -286,52 +288,53 @@ footer {
     width: 100px;
 }
 
-.emphacont {
-    margin-top: 20px;
+.row-cont {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.emphacont {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
     cursor: pointer;
     border: 1px solid var(--textc);
-    border-radius: var(--radius);
-    align-items: center;
+    align-items: left;
 }
 
 .emphacont:hover {
-    outline: 2px solid var(--textb);
+
 }
 
 #emphaimg, .emphaimg {
-    width: 250px;
-    height: 250px;
+    width: 100%;
     object-fit: cover;
     object-position: center;
     background-color: #ffffff09;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-top-left-radius: var(--radius);
-    border-bottom-left-radius: var(--radius);
 }
 
 .emphatext {
     color: var(--texta);
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .titlespantext{
-    display: flex; align-items: center; flex-direction: row; justify-content: left;
-    flex-wrap: wrap-reverse;
+    display: flex; align-items: left; flex-direction: column-reverse; justify-content: left;
 }
 
 #emphatitle {
     margin-bottom: 2px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #emphatitlehub {
     padding: 2px 4px 2px 4px;
     border-radius: var(--radius);
     color: var(--textb);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -347,9 +350,9 @@ footer {
 }
 
 #namemark {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
@@ -370,8 +373,6 @@ footer {
     max-width: 200px;
     align-items: left;
     justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 
@@ -382,7 +383,8 @@ footer {
 }
 
 #pricenow {
-    font-size: 24px;
+    font-size: 20px;
+    margin-bottom: 10px;
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -411,16 +413,23 @@ footer {
     background-image: url(https://raw.githubusercontent.com/carloscdf/atacadaodossuplementos/c3822d4db8a90b01bd342c81200cbdbd19f35393/assets/carousel/arrow-icon-prev.svg) !important;
 }
 
+/*
 .carousel-item > a > img {
     border-radius: var(--radius);
 }
-
+*/
 .carousel-item > a > .mobile {
     display: none !important;
 }
 
 
 /*responsive*/
+
+@media (max-width: 768px) {
+    .emphacont {
+        width: 33.3%;
+    }
+}
 
 @media(max-width: 1300px) {
     .headercont {
