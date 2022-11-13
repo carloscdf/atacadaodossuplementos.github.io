@@ -288,7 +288,7 @@ footer {
     width: 100px;
 }
 
-.row-cont {
+.row-cont > div {
     display: flex;
     flex-wrap: wrap;
 }
