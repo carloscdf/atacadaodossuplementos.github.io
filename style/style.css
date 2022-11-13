@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --texta: #1D1D1F;
+    --texta: #111111;
     --button: #35353a;
     --textb:#0d80f5ff;
     --black: #050505;
@@ -223,8 +223,10 @@ footer {
 
 .mainheader {
     width: 100%;
+    position: fixed;
+    z-index: 9;
     border-bottom: 1px solid var(--outline);
-    background-color: var(--texta);
+    background-color: var(--texte);
 }
 
 .headercont {
@@ -297,9 +299,6 @@ footer {
 }
 
 .emphacont {
-    -webkit-box-shadow: 0px 4px 24px -11px rgba(0,0,0,0.36);
-    -moz-box-shadow: 0px 4px 24px -11px rgba(0,0,0,0.36);
-    box-shadow: 0px 4px 24px -11px rgba(0,0,0,0.36);
     margin-top: 20px;
     display: flex;
     cursor: pointer;
