@@ -334,7 +334,6 @@ footer {
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
-    margin-left: 10px;
 }
 
 #emphatext {
@@ -416,6 +415,11 @@ footer {
     border-radius: var(--radius);
 }
 
+.carousel-item > a > .mobile {
+    display: none !important;
+}
+
+
 /*responsive*/
 
 @media(max-width: 1300px) {
@@ -433,13 +437,73 @@ footer {
 
 @media(max-width: 575.98px) {
 
-    .row-mobile {
-        flex-direction: column;
+    /*product pin*/
+    .row-cont {
+        display: flex;
+        flex-wrap: wrap;
     }
-    
+
+    .m {
+        margin-bottom: 20px;
+    }
+
+    .emphacont {
+        border-radius: 0px !important;
+        width: 50%;
+        margin-top: 0px !important;
+    }
+
+    .emphacont:hover {
+        outline: none;
+    }
+
+    #emphatitlehub {
+        font-size: 11px ;
+    }
+
+    #emphatitle {
+        font-size: 16px;
+    }
+
+    #namemark {
+        font-size: 10px;
+    }
+
+    #pricenow {
+        font-size: 18px;
+    }
+
+    .pricebox {
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    #emphatext {
+        display: none;
+    }
 
     .emphatext {
-        margin-bottom: 30px;
+        margin: 0px 0px 0px 9px;
+    }
+
+    #store-logo {
+        margin-top: 8px;
+        width: 80px !important;
+        margin-bottom: 2px !important;
+    }
+
+    /*Carousel*/
+    .carousel-item > a > .desktop {
+        display: none !important;
+    }
+
+    .carousel-item > a > .mobile {
+        display: block !important;
+    }
+
+
+    .row-mobile {
+        flex-direction: column;
     }
 
     .emphacont {

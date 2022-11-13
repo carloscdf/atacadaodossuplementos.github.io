@@ -34,6 +34,11 @@ padding: 10px;
     margin-bottom: 10px;
 }
 
+#store-logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
 .storelink-text > .storelink-title{
     font-size: 20px;
     font-weight: 600;
@@ -93,4 +98,21 @@ padding: 10px;
     }
 }
 
+@media(max-width: 575.98px) {
+    .storelink-title {
+        font-size: 16px !important;
+    }
+    
+    .storelinktext {
+        font-size: 14px !important;
+    }
 
+    #storelink-logo {
+        width: 80px;
+    }
+
+    .store-link-buttons {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
