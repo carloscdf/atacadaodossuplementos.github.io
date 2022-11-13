@@ -300,10 +300,13 @@ footer {
     cursor: pointer;
     border: 1px solid var(--textc);
     align-items: left;
+    transition: 0.1s linear;
 }
 
 .emphacont:hover {
-
+    -webkit-box-shadow: 0px 0px 80px -57px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 80px -57px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 80px -57px rgba(0,0,0,0.75);
 }
 
 #emphaimg, .emphaimg {
@@ -452,6 +455,10 @@ footer {
         flex-wrap: wrap;
     }
 
+    .titlespantext {
+        margin-top: 5px !important;
+    }
+
     .m {
         margin-bottom: 20px;
     }
@@ -526,11 +533,6 @@ footer {
         height: 100%;
         object-fit: cover;
         object-position: center;
-        background-color: #ffffff09;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 0;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 0px;
     }
 
     .footer-info {

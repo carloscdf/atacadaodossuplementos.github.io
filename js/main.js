@@ -1,7 +1,8 @@
 /*Product post*/
 
 let lovelyhair =
-  `<a  href="https://www.magazineluiza.com.br/lovely-hair-60caps-bpm-nutrition/p/dk65j04j37/sa/sanu/?seller_id=grupoatacadaodossuplementos"
+  `<!--PRODUTO--> 
+  <a  href="https://www.magazineluiza.com.br/lovely-hair-60caps-bpm-nutrition/p/dk65j04j37/sa/sanu/?seller_id=grupoatacadaodossuplementos"
   target="_blank"  class="emphacont">
       <div class="emphaimg">
           <img id="emphaimg" src="images/produtos/lovely hair.png" alt="Lovely Hair">
@@ -37,9 +38,11 @@ let lovelyhair =
           </div>
 
       </div>
-  </a>`;
+  </a>
+  <!--PRODUTO-->`;
 
-let diaboverde =  ` <!--PRODUTO-->
+let diaboverde =  `
+ <!--PRODUTO-->
 <a  href="https://www.magazineluiza.com.br/pre-treino-150g-diabo-verde-ftw/p/ebea9c100a/sa/satr/"
 target="_blank" class="emphacont">
     <div class="emphaimg">
@@ -79,7 +82,49 @@ target="_blank" class="emphacont">
 </a>
  <!--PRODUTO--> `;
 
-box = lovelyhair + diaboverde;
+ let creatinaProbiotica =  `
+ <!--PRODUTO-->
+<a  href="https://www.magazineluiza.com.br/creatina-300g-probiotica/p/ace6hg671d/sa/sacr/?seller_id=grupoatacadaodossuplementos"
+target="_blank" class="emphacont">
+    <div class="emphaimg">
+        <img id="emphaimg" src="images/produtos/creatina300gprobiotica.png" alt="Creatina 300g Probiotica">
+    </div>
+
+    <div class="emphatext">
+        <div class="titlespantext">
+            <h1 id="emphatitle">
+                Creatina 300g
+            </h1>
+
+            <span id="emphatitlehub">
+                Frete Grátis
+            </span>
+        </div>
+        <p id="namemark">
+            de <span>Probiotica</span>
+        </p>
+        <div class="pricebox">
+            <span id="pricenow">
+                R$&nbsp;220,00
+            </span>
+        </div>
+        <div class="cupombox">
+            <p id="cupomidtext"> Cupom:
+                <span id="cupomid">
+
+                </span>
+            </p>
+        </div>
+        <div class="store-logo">
+            <img src="assets/logos/magalu.png" alt="magalu" id="store-logo">
+        </div>
+
+    </div>
+</a>
+ <!--PRODUTO--> `;
+
+
+box = lovelyhair + diaboverde + creatinaProbiotica;
 
 let div = document.createElement('div');
 div.innerHTML = box;
