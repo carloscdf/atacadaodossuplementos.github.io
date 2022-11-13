@@ -123,12 +123,58 @@ target="_blank" class="emphacont">
 </a>
  <!--PRODUTO--> `;
 
+ let feminiWhey =  `
+ <!--PRODUTO-->
+<a  href="https://www.magazineluiza.com.br/femini-whey-max-titanium/p/cj3213bd04/sa/samm/?seller_id=grupoatacadaodossuplementos"
+target="_blank" class="emphacont">
+    <div class="emphaimg">
+        <img id="emphaimg" src="images/produtos/femini-whey.png" alt="Femini Whey">
+    </div>
 
-box = lovelyhair + diaboverde + creatinaProbiotica;
+    <div class="emphatext">
+        <div class="titlespantext">
+            <h1 id="emphatitle">
+                Femini Whey 
+            </h1>
 
-let div = document.createElement('div');
-div.innerHTML = box;
-document.getElementById('content').appendChild(div);
+            <span id="emphatitlehub">
+                Frete Grátis
+            </span>
+        </div>
+        <p id="namemark">
+            de <span>Max Titanium</span>
+        </p>
+        <div class="pricebox">
+            <span id="pricenow">
+                R$&nbsp;120,00
+            </span>
+        </div>
+        <div class="cupombox">
+            <p id="cupomidtext"> Cupom:
+                <span id="cupomid">
+
+                </span>
+            </p>
+        </div>
+        <div class="store-logo">
+            <img src="assets/logos/magalu.png" alt="magalu" id="store-logo">
+        </div>
+
+    </div>
+</a>
+ <!--PRODUTO--> `;
+
+
+/*DADOS DA PÁGINA INICIAL*/
+
+produto = diaboverde  + feminiWhey + creatinaProbiotica + lovelyhair;
+
+let mainpage = document.createElement('div');
+mainpage.innerHTML = produto;
+document.getElementById('content').appendChild(mainpage);
+
+
+
 
 /*Data footer*/
 const ano = document.getElementById("ano");
