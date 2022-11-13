@@ -12,8 +12,9 @@
 }
 
 .storelink {
-    margin: 10px;
-    max-width: 240px;
+    margin-right: 10px;
+    min-width: 240px;
+    width: 100%;
     display: flex;
     cursor: pointer;
     flex-direction: column;
@@ -81,38 +82,10 @@ padding: 10px;
 }
 
 .the-flex {
+    padding: 5px;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    overflow-x: auto;
     align-items: center;
-}
-
-@media (max-width: 1199) {
-    .storelink {
-        height: fit-content;
-    }
-    .store-link-buttons {
-        margin-top: 0px;
-        padding-top: 0px;
-        border-top: 1px solid var(--textc);
-    }
-}
-
-@media(max-width: 575.98px) {
-    .storelink-title {
-        font-size: 16px !important;
-    }
-    
-    .storelinktext {
-        font-size: 14px !important;
-    }
-
-    #storelink-logo {
-        width: 80px;
-    }
-
-    .store-link-buttons {
-        padding: 8px;
-        font-size: 14px;
-    }
 }
