@@ -88,8 +88,6 @@ body {
 }
 
 .footer-above {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
     background-color: var(--texta);
 }
 
@@ -190,20 +188,8 @@ footer {
 
 /*end footer*/
 
-.container {
-    max-width: 1050px;
-    margin: 0 auto;
-}
-
-.copa {
-    background-image: url("/assets/line.png") !important;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: white;
-}
-
 .alert-header {
+    margin-top: 73px;
     text-align: center;
     display: flex;
     font-size: 16px;
@@ -225,6 +211,8 @@ footer {
     width: 100%;
     position: fixed;
     z-index: 9;
+    top: 0;
+    left: 0;
     border-bottom: 1px solid var(--outline);
     background-color: var(--texte);
 }
