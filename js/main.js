@@ -179,7 +179,7 @@ target="_blank" class="emphacont">
             </h1>
 
             <span id="emphatitlehub">
-                Frete Grátis
+                em promoção
             </span>
         </div>
         <p id="namemark">
