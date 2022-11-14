@@ -446,13 +446,14 @@ footer {
 /*responsive*/
 
 @media (max-width: 768px) {
-    
+
     .emphacont {
         width: 33.3%;
     }
 }
 
 @media(max-width: 1300px) {
+    
     .headercont {
         width: 95%;
     }
@@ -470,6 +471,14 @@ footer {
         display: none !important;
     }
 
+    /*Categories*/
+    .cat > img:hover {
+        outline: 0px;
+    }
+
+    .storelink:hover {
+        outline: 0px !important ;
+    }
     /*product pin*/
     .row-cont {
         display: flex;

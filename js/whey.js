@@ -1,5 +1,5 @@
 /*DADOS DA PÁGINA WHEY*/
-whey = feminiWhey;
+whey = feminiWhey + whey100musclefull;
 
 let wheyPage = document.createElement('div');
 wheyPage.innerHTML = whey;

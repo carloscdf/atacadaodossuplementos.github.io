@@ -164,10 +164,187 @@ target="_blank" class="emphacont">
 </a>
  <!--PRODUTO--> `;
 
+ let coq10 =  `
+ <!--PRODUTO-->
+<a  href="https://www.magazineluiza.com.br/coq-10-60caps-fullife-nutrition/p/ebf0b4cbg9/rc/rcnm/?seller_id=grupoatacadaodossuplementos"
+target="_blank" class="emphacont">
+    <div class="emphaimg">
+        <img id="emphaimg" src="images/produtos/coq-10.png" alt="coq-10">
+    </div>
+
+    <div class="emphatext">
+        <div class="titlespantext">
+            <h1 id="emphatitle">
+            COQ-10 60caps
+            </h1>
+
+            <span id="emphatitlehub">
+                Frete Grátis
+            </span>
+        </div>
+        <p id="namemark">
+            de <span>Fullife</span>
+        </p>
+        <div class="pricebox">
+            <span id="pricenow">
+                R$&nbsp;65,00
+            </span>
+        </div>
+        <div class="store-logo">
+            <img src="assets/logos/magalu.png" alt="magalu" id="store-logo">
+        </div>
+
+    </div>
+</a>
+ <!--PRODUTO--> `;
+
+ let whey100musclefull =  `
+ <!--PRODUTO-->
+<a  href="https://www.magazineluiza.com.br/whey-100-900g-musclefull/p/ff00bkaj10/sa/sawp/?seller_id=grupoatacadaodossuplementos"
+target="_blank" class="emphacont">
+    <div class="emphaimg">
+        <img id="emphaimg" src="images/produtos/whey100musclefull.png" alt="coq-10">
+    </div>
+
+    <div class="emphatext">
+        <div class="titlespantext">
+            <h1 id="emphatitle">
+            Whey 100% 900g
+            </h1>
+
+            <span id="emphatitlehub">
+                Frete Grátis
+            </span>
+        </div>
+        <p id="namemark">
+            de <span>Musclefull</span>
+        </p>
+        <div class="pricebox">
+            <span id="pricenow">
+                R$&nbsp;140,00
+            </span>
+        </div>
+        <div class="store-logo">
+            <img src="assets/logos/magalu.png" alt="magalu" id="store-logo">
+        </div>
+
+    </div>
+</a>
+ <!--PRODUTO--> `;
+
+ let CreatineAlkalineCreapure =  `
+ <!--PRODUTO-->
+<a  href="https://www.magazineluiza.com.br/creatine-alkaline-creapure-300g-maxeffect/p/ca35h9kgh4/sa/sacr/?seller_id=grupoatacadaodossuplementos"
+target="_blank" class="emphacont">
+    <div class="emphaimg">
+        <img id="emphaimg" src="images/produtos/Creatine alkaline creapure 300g.png" alt="coq-10">
+    </div>
+
+    <div class="emphatext">
+        <div class="titlespantext">
+            <h1 id="emphatitle">
+            Creatine Alkaline Creapure 300g
+            </h1>
+
+            <span id="emphatitlehub">
+                Frete Grátis
+            </span>
+        </div>
+        <p id="namemark">
+            de <span>Maxeffect</span>
+        </p>
+        <div class="pricebox">
+            <span id="pricenow">
+                R$&nbsp;300,00
+            </span>
+        </div>
+        <div class="store-logo">
+            <img src="assets/logos/magalu.png" alt="magalu" id="store-logo">
+        </div>
+
+    </div>
+</a>
+ <!--PRODUTO--> `;
+
+let Creatina300gMax =  `
+ <!--PRODUTO-->
+<a  href="https://www.magazineluiza.com.br/creatina-300g-max-titanium/p/fa8e18j221/sa/sacr/?seller_id=grupoatacadaodossuplementos"
+target="_blank" class="emphacont">
+    <div class="emphaimg">
+        <img id="emphaimg" src="images/produtos/Creatina 300g max.png" alt="coq-10">
+    </div>
+
+    <div class="emphatext">
+        <div class="titlespantext">
+            <h1 id="emphatitle">
+            Creatina 300g
+            </h1>
+
+            <span id="emphatitlehub">
+                Frete Grátis
+            </span>
+        </div>
+        <p id="namemark">
+            de <span>
+            Max Titanium
+            </span>
+        </p>
+        <div class="pricebox">
+            <span id="pricenow">
+                R$&nbsp;220,00
+            </span>
+        </div>
+        <div class="store-logo">
+            <img src="assets/logos/magalu.png" alt="magalu" id="store-logo">
+        </div>
+
+    </div>
+</a>
+ <!--PRODUTO--> `;
+
+let CreatinaHardcore300g=  `
+ <!--PRODUTO-->
+<a  href="https://www.magazineluiza.com.br/creatina-hardcore-300g-integral-medica/p/fj1237c679/sa/sacr/?seller_id=grupoatacadaodossuplementos"
+target="_blank" class="emphacont">
+    <div class="emphaimg">
+        <img id="emphaimg" src="images/produtos/Creatina hardcore 300g.png" alt="coq-10">
+    </div>
+
+    <div class="emphatext">
+        <div class="titlespantext">
+            <h1 id="emphatitle">
+            Creatina Hardcore 300g
+            </h1>
+
+            <span id="emphatitlehub">
+                Frete Grátis
+            </span>
+        </div>
+        <p id="namemark">
+            de <span>
+            Integral Médica
+            </span>
+        </p>
+        <div class="pricebox">
+            <span id="pricenow">
+                R$&nbsp;220,00
+            </span>
+        </div>
+        <div class="store-logo">
+            <img src="assets/logos/magalu.png" alt="magalu" id="store-logo">
+        </div>
+
+    </div>
+</a>
+ <!--PRODUTO--> `;
+
+
 
 /*DADOS DA PÁGINA INICIAL*/
 
-produto = diaboverde  + feminiWhey + creatinaProbiotica + lovelyhair;
+produto = coq10 + lovelyhair + diaboverde  + feminiWhey + creatinaProbiotica + whey100musclefull + CreatineAlkalineCreapure
++ Creatina300gMax + CreatinaHardcore300g
+;
 
 let mainpage = document.createElement('div');
 mainpage.innerHTML = produto;
