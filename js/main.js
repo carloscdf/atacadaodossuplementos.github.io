@@ -342,16 +342,11 @@ target="_blank" class="emphacont">
 
 /*DADOS DA PÁGINA INICIAL*/
 
-produto = coq10 + lovelyhair + diaboverde  + feminiWhey + creatinaProbiotica + whey100musclefull + CreatineAlkalineCreapure
-+ Creatina300gMax + CreatinaHardcore300g
-;
+produto = coq10 + lovelyhair + diaboverde  + feminiWhey 
 
 let mainpage = document.createElement('div');
 mainpage.innerHTML = produto;
 document.getElementById('content').appendChild(mainpage);
-
-
-
 
 /*Data footer*/
 const ano = document.getElementById("ano");
