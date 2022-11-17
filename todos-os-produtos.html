@@ -41,20 +41,45 @@
         <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="index.html">Página Inicial</a></li>
-              <li class="breadcrumb-item"><a href="todos-os-produtos.html">Todos os Produtos</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Creatina</li>
+              <li class="breadcrumb-item active" aria-current="page">Todos os Produtos</li>
             </ol>
           </nav>
     </div>
 
 
     <div class="container">
+        <div class="pin-title">
+            <h3>Produtos por categoria</h3>
+        </div>
+
+        <div class="categories">
+            <a href="creatina.html" class="cat">
+                <img src="assets/categorias/creatina.png" alt="">
+                <p>Creatina</p>
+            </a>
+
+            <a href="pre-treino.html" class="cat">
+                <img src="assets/categorias/pre-treino.png" alt="">
+                <p>Pré Treino</p>
+            </a>
+
+            <a href="whey.html" class="cat">
+                <img src="assets/categorias/whey.png" alt="">
+                <p>Whey Protein</p>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="container">
         <div class="pin-title m">
-            <h3>Creatina</h3>
+            <h3>Todos os Produtos</h3>
         </div>
 
 
-    <div class="row-cont" id="creatina"></div>
+    <div class="row-cont" id="all"></div>
     <div class="row-cont removedor-de-container-content-da-segunda-pagina-de-produtos-listados" id="content"></div>
 
     </div>
@@ -123,7 +148,7 @@
     <!--Script area-->
     <script src="bootstrap/js/bootstrap.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/creatina.js"></script>
+    <script src="js/all.js"></script>
 
 
 </body>

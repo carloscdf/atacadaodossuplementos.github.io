@@ -302,7 +302,7 @@ target="_blank" class="emphacont">
 </a>
  <!--PRODUTO--> `;
 
-let CreatinaHardcore300g=  `
+let CreatinaHardcore300g =  `
  <!--PRODUTO-->
 <a  href="https://www.magazineluiza.com.br/creatina-hardcore-300g-integral-medica/p/fj1237c679/sa/sacr/?seller_id=grupoatacadaodossuplementos"
 target="_blank" class="emphacont">
