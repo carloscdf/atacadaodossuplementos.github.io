@@ -53,7 +53,7 @@ let header = `<div class="mainheader">
       <a href="https://www.magazineluiza.com.br/lojista/grupoatacadaodossuplementos/" target="_blank">Magazine Luiza</a>
   </li>
   <li>
-      <a href="" id="offline">Shopee</a>
+      <a href="https://shopee.com.br/atacadaodossuplementos" target="_blank">Shopee</a>
   </li>
   <li>
       <a href=""  id="offline">Mercado Livre</a>
