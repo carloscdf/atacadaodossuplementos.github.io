@@ -8,9 +8,11 @@ let header = `<div class="mainheader">
             </a>
         </div>
 
+        <!--Utillize o id="offline" para desativar um botão-->
+
         <ul class="headerlinks">
             <li><a href="https://www.magazineluiza.com.br/lojista/grupoatacadaodossuplementos/" target="_blank">Magazine Luiza</a></li>
-            <li><a href="#" id="offline">Shopee</a></li>
+            <li><a href="https://shopee.com.br/atacadaodossuplementos" target="_blank">Shopee</a></li>
             <li><a href="#" id="offline">Mercado Livre</a></li>
         </ul>
     </div>
