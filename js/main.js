@@ -15,7 +15,7 @@ let lovelyhair =
               </h1>
 
               <span id="emphatitlehub">
-                  Frete Grátis
+              em promoção
               </span>
           </div>
           <p id="namemark">
@@ -23,7 +23,7 @@ let lovelyhair =
           </p>
           <div class="pricebox">
               <span id="pricenow">
-                  R$&nbsp;110,00
+                  R$&nbsp;69,90
               </span>
           </div>
           <div class="cupombox">
@@ -56,7 +56,7 @@ target="_blank" class="emphacont">
             </h1>
 
             <span id="emphatitlehub">
-                Frete Grátis
+            em promoção
             </span>
         </div>
         <p id="namemark">
@@ -64,7 +64,7 @@ target="_blank" class="emphacont">
         </p>
         <div class="pricebox">
             <span id="pricenow">
-                R$&nbsp;100,00
+                R$&nbsp;79,90
             </span>
         </div>
         <div class="cupombox">
@@ -97,7 +97,7 @@ target="_blank" class="emphacont">
             </h1>
 
             <span id="emphatitlehub">
-                Frete Grátis
+            em promoção
             </span>
         </div>
         <p id="namemark">
@@ -105,7 +105,7 @@ target="_blank" class="emphacont">
         </p>
         <div class="pricebox">
             <span id="pricenow">
-                R$&nbsp;220,00
+                R$&nbsp;179,90
             </span>
         </div>
         <div class="cupombox">
@@ -138,7 +138,7 @@ target="_blank" class="emphacont">
             </h1>
 
             <span id="emphatitlehub">
-                Frete Grátis
+            em promoção
             </span>
         </div>
         <p id="namemark">
@@ -179,7 +179,7 @@ target="_blank" class="emphacont">
             </h1>
 
             <span id="emphatitlehub">
-                em promoção
+            em promoção
             </span>
         </div>
         <p id="namemark">
@@ -187,7 +187,7 @@ target="_blank" class="emphacont">
         </p>
         <div class="pricebox">
             <span id="pricenow">
-                R$&nbsp;65,00
+                R$&nbsp;49,90
             </span>
         </div>
         <div class="store-logo">
@@ -213,7 +213,7 @@ target="_blank" class="emphacont">
             </h1>
 
             <span id="emphatitlehub">
-                Frete Grátis
+            em promoção
             </span>
         </div>
         <p id="namemark">
@@ -247,7 +247,7 @@ target="_blank" class="emphacont">
             </h1>
 
             <span id="emphatitlehub">
-                Frete Grátis
+            em promoção
             </span>
         </div>
         <p id="namemark">
@@ -255,7 +255,7 @@ target="_blank" class="emphacont">
         </p>
         <div class="pricebox">
             <span id="pricenow">
-                R$&nbsp;300,00
+                R$&nbsp;260,00
             </span>
         </div>
         <div class="store-logo">
@@ -291,7 +291,7 @@ target="_blank" class="emphacont">
         </p>
         <div class="pricebox">
             <span id="pricenow">
-                R$&nbsp;220,00
+                R$&nbsp;179,90
             </span>
         </div>
         <div class="store-logo">
@@ -317,7 +317,7 @@ target="_blank" class="emphacont">
             </h1>
 
             <span id="emphatitlehub">
-                Frete Grátis
+            em promoção
             </span>
         </div>
         <p id="namemark">
@@ -327,7 +327,7 @@ target="_blank" class="emphacont">
         </p>
         <div class="pricebox">
             <span id="pricenow">
-                R$&nbsp;220,00
+                R$&nbsp;179,90
             </span>
         </div>
         <div class="store-logo">
